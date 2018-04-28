@@ -107,14 +107,18 @@ class BodyContainer extends Component {
 
             <div className="dev-container clearfix">
               <div className="floater float-left">
-                <h2 className="dev-h2">Marconi Applications</h2>
-                <p className="dev-p">Write decentralized applications using Marconi Script, a Turing-complete language with access to network packets.</p>
-                <p className="dev-p">Decentralized Apps can be submitted to the global chain or branch chains for public and private networks.</p>
+                <div className="dev-item">
+                  <h2 className="dev-h2">Marconi Applications</h2>
+                  <p className="dev-p">Write decentralized applications using Marconi Script, a Turing-complete language with access to network packets.</p>
+                  <p className="dev-p">Decentralized Apps can be submitted to the global chain or branch chains for public and private networks.</p>
+                </div>
               </div>
 
               <div className="floater float-right">
-                <h2 className="dev-h2">Marconi Library</h2>
-                <p className="dev-p">APIs enable traffic routing, packet analysis, pattern recognition, branch chain creation and token migration.</p>
+                <div className="dev-item">
+                  <h2 className="dev-h2">Marconi Library</h2>
+                  <p className="dev-p">APIs enable traffic routing, packet analysis, pattern recognition, branch chain creation and token migration.</p>
+                </div>
 
                 <div className="center-items">
                   <h2 className="dev-h2 dev-access">Get early access to the SDK</h2>
