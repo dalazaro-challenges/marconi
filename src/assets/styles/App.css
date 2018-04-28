@@ -5,8 +5,21 @@ a {
   text-decoration: none;
 }
 
-.m-0 {
+h1, h2, h3, h4, h5, h6, p {
   margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.ml-2 {
+  margin-left: 20px;
+}
+
+.mr-8 {
+  margin-right: 80px;
 }
 
 .clearfix::after {
@@ -28,11 +41,7 @@ a {
   padding-left: 0;
 }
 
-.splash {
-  padding: 90px 0 130px 0;
-}
-
-.splash-img, .splash-info {
+.floater {
   width: 50%;
 }
 
@@ -59,6 +68,10 @@ button {
   font-weight: 700;
 }
 
+.git-access:hover {
+  background-color: #d65222;
+}
+
 .other-access {
   background-color: #fb690000;
   border: 2px solid #FB6900;
@@ -70,6 +83,6 @@ button {
   color: #000000;
 }
 
-.btn-align-fix {
-  display: inline;
+.center-items {
+  text-align: center;
 }

@@ -1,0 +1,14 @@
+#code-box {
+  background-color: #292c34;
+  margin: 0 auto;
+  padding: 30px;
+  border: 2.5px solid #a1a1a1;
+  border-radius: 3px;
+  height: 346px;
+  width: 746px;
+}
+
+.font {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: #abb2bf;
+}

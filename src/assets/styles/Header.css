@@ -17,14 +17,18 @@ header {
   color: #ffffff;
 }
 
-h1 {
+.splash {
+  padding: 90px 0 130px 0;
+}
+
+#splash-h1 {
   font-family: 'Raleway', sans-serif;
   font-size: 48px;
   font-weight: 500;
   padding-bottom: 10px;
 }
 
-h2 {
+#splash-h2 {
   font-family: 'Raleway', sans-serif;
   font-size: 28px;
   font-weight: 300;
@@ -32,9 +36,10 @@ h2 {
   padding-right: 100px;
 }
 
-p {
+#splash-p {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   font-weight: 600;
+  margin: 0;
   padding: 100px 0 10px 0;
 }
