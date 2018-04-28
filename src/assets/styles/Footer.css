@@ -1,7 +1,10 @@
-.footer {
+footer {
   background-color: #343838;
-  padding: 30px 150px 80px 70px;
   border-top: 10px solid #008C9E;
+}
+
+.footer {
+  padding: 30px 150px 80px 70px;
   font-family: 'Open Sans', sans-serif;
 }
 
