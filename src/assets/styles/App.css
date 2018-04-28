@@ -5,9 +5,8 @@ a {
   text-decoration: none;
 }
 
-.navbar {
-  background-color: #151e1e;
-  padding: 1.25rem 3rem;
+.m-0 {
+  margin: 0;
 }
 
 .clearfix::after {
@@ -24,23 +23,26 @@ a {
   float: right;
 }
 
-.nav-link {
-  display: inline;
-  padding: 2.25rem;
-  font-size: 0.9rem;
-}
-
-.nav-link a {
-  color: #fff;
-}
-
 .no-bullets {
   list-style-type: none;
   padding-left: 0;
 }
 
+.splash {
+  padding: 90px 0 130px 0;
+}
+
 .splash-img, .splash-info {
   width: 50%;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+}
+
+button {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .access-btn {
@@ -60,37 +62,14 @@ a {
 .other-access {
   background-color: #fb690000;
   border: 2px solid #FB6900;
+  color: #ffffff;
 }
 
 .other-access:hover {
   background-color: #FB6900;
+  color: #000000;
 }
 
-.footer {
-  background-color: #343838;
-  padding: 2rem 4rem;
-  border-top: 0.75rem solid #008C9E;
-  height: 18rem;
-}
-
-.copyright {
-  margin-top: 0.5rem;
-  margin-left: 0.4rem;
-  font-size: 0.85rem;
-  color: #00b4cc;
-}
-
-.footer-links {
-  margin: 0 4rem 0 0;
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-link {
-  margin-bottom: 1.5rem;
-}
-
-.footer-link a {
-  color: #00b4cc;
-  font-weight: 300;
+.btn-align-fix {
+  display: inline;
 }
