@@ -4,7 +4,7 @@ import footer from '../assets/images/footer.jpg';
 class Footer extends Component {
   render() {
     return (
-      <div className="footer">
+      <div className="footer clearfix">
         <div className="footer-logo float-left">
           <img src={footer} alt="footer" />
           <div className="copyright">© 2018 Marconi Foundation</div>
