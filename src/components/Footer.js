@@ -10,7 +10,7 @@ class Footer extends Component {
           <div className="copyright">© 2018 Marconi Foundation</div>
         </div>
 
-        <ul className="footer-links no-bullets float-right">
+        <ul className="footer-link-container no-bullets float-right">
           <li className="footer-link">
             <a href="https://docsend.com/view/5zragmb">
               Whitepaper

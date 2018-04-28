@@ -10,7 +10,6 @@ class Header extends Component {
       <div>
         <header>
 
-          {/* two sections in the header: navbar & splash */}
           <section className="navbar clearfix">
             <img src={header} alt="header" className="float-left" />
 
@@ -38,6 +37,13 @@ class Header extends Component {
                   Team
                 </a>
               </li>
+
+              <li className="nav-link">
+                <select>
+                  <option value="english">English</option>
+                  <option value="chinese">Simplified Chinese</option>
+                </select>
+              </li>
             </ul>
           </section>
 
@@ -48,6 +54,10 @@ class Header extends Component {
 
             <div className="floater float-right">
               <h1 id="splash-h1">Programmable Ethernet</h1>
+
+              {/* TODO: Set conditional to interpolate languages
+              English: A new blockchain protocol for jump starting secure networks using programmable packets
+              Chinese: 使用可编程数据包跳转启动安全网络的新区块链协议 */}
               <h2 id="splash-h2">A new blockchain protocol for jump starting secure networks using programmable packets</h2>
 
               <p id="splash-p">Get early access to the SDK</p>
@@ -55,7 +65,10 @@ class Header extends Component {
                 <button className="access-btn git-access">
                   Request Git Access
                 </button>
-                <button className="access-btn other-access ml-2">View Sample Code</button>
+
+                <button className="access-btn other-access ml-2">
+                  View Sample Code
+                </button>
               </div>
             </div>          
           </section>

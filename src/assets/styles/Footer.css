@@ -12,7 +12,7 @@
   color: #00b4cc;
 }
 
-.footer-links {
+.footer-link-container {
   margin: 0 4rem 0 0;
   display: flex;
   flex-direction: column;
