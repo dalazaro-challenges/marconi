@@ -8,7 +8,26 @@
   width: 746px;
 }
 
-.font {
+.sample-font {
   font-family: 'Ubuntu Mono', monospace;
-  font-size: #abb2bf;
+  color: #abb2bf;
 }
+
+.sample-btn {
+  font-family: "Open Sans", sans serif;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 15px 20px;
+  border: 0;
+  background-color: #f0f0f0;
+}
+
+.sample-code-p {
+  font-family: "Open Sans", sans serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #343838;
+  margin: 20px 0;
+  line-height: 28px;
+}
+

@@ -77,26 +77,32 @@
 }
 
 .case-item-container {
+  width: 100%;
   display: flex;
-  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .case-item {
-  width: 325px;
+  width: 30%;
+  padding: 0 10px;
+  margin-bottom: 40px;
 }
 
 .case-h2 {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 22px;
   color: #00b4cc;
 }
 
 .case-plus {
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
-  font-size: 36px;
+  font-size: 28px;
   color: #fb6900;
+  padding-right: 5px;
+  line-height: 0px;
 }
 
 .case-p {
@@ -106,6 +112,10 @@
   color: #ffffff;
   line-height: 26px;
   margin-left: 15px;
+}
+
+.dev-container {
+  margin-bottom: 50px;
 }
 
 .dev-h2 {
@@ -120,4 +130,12 @@
   font-weight: 300;
   font-size: 16px;
   color: #343838;
+  margin: 10px 0;
+  padding-right: 100px;
+  line-height: 28px;
+}
+
+.dev-access {
+  margin-top: 60px;
+  margin-bottom: 10px;
 }

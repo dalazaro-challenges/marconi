@@ -105,7 +105,7 @@ class BodyContainer extends Component {
           <div className="container">
             <h1 className="body-h1">Developers</h1>
 
-            <div className="clearfix">
+            <div className="dev-container clearfix">
               <div className="floater float-left">
                 <h2 className="dev-h2">Marconi Applications</h2>
                 <p className="dev-p">Write decentralized applications using Marconi Script, a Turing-complete language with access to network packets.</p>
@@ -117,7 +117,7 @@ class BodyContainer extends Component {
                 <p className="dev-p">APIs enable traffic routing, packet analysis, pattern recognition, branch chain creation and token migration.</p>
 
                 <div className="center-items">
-                  <h2 className="dev-h2">Get early access to the SDK</h2>
+                  <h2 className="dev-h2 dev-access">Get early access to the SDK</h2>
                   <button className="access-btn git-access">Request Git Access</button>
                 </div>
               </div>

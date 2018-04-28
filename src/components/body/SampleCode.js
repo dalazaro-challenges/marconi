@@ -5,17 +5,17 @@ class SampleCode extends Component {
     return (
       <div>
         <div className="center-items">
-          <button className="">Network Creation</button>
-          <button className="">Network Admin</button>
-          <button className="">Anti-Phishing</button>
+          <button className="sample-btn">Network Creation</button>
+          <button className="sample-btn">Network Admin</button>
+          <button className="sample-btn">Anti-Phishing</button>
         </div>
 
-        <div className="center-items">
-          <p className="dev-p">Spin up a new virtualized blockchain network in just a few lines of code</p>
+        <div className="sample-code-p center-items">
+          <p>Spin up a new virtualized blockchain network in just a few lines of code</p>
         </div>
 
         <div id="code-box">
-          <div className="font">
+          <div className="sample-font">
           $ marconi branch foo
           >>> Success. Created branch foo. 
           
