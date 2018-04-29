@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { translate, Trans } from "react-i18next";
 
-import header from '../assets/images/header.jpg';
-import cloud from '../assets/images/cloud.jpg';
+import headerImage from '../assets/images/header.jpg';
+import cloudImage from '../assets/images/cloud.jpg';
 
 class Header extends Component {
   render() {
@@ -16,7 +16,7 @@ class Header extends Component {
       <div>
         <header className="fixed-width">
             <nav className="clearfix" id="navbar">
-              <img src={header} alt="header" className="float-left" />
+              <img src={headerImage} alt="header" className="float-left" />
 
               <ul className="navbar-links float-right no-bullets">
                 <li className="nav-link">
@@ -52,7 +52,7 @@ class Header extends Component {
 
             <section className="splash clearfix">
               <div className="floater float-left">
-                <img className="center" src={cloud} alt="cloud" />
+              <img className="center-items" src={cloudImage} alt="cloud" />
               </div>
 
               <div className="floater float-right">

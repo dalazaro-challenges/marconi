@@ -20,7 +20,7 @@ class Headers extends React.Component {
       );
     });
     return (
-      <div className='center-items'>
+      <div className='center'>
         {headers}
       </div>
 
@@ -52,7 +52,7 @@ class SampleCode extends Component {
           panes={this.props.panes}
         />
 
-        <div className="center-items">
+        <div className="center">
           <p className="sample-info">
             {pane.description}
           </p>

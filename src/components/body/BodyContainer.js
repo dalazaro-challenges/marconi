@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { SnippetOne, SnippetTwo, SnippetThree } from './snippets.js';
 import SampleCode from './SampleCode.js';
-import encryption from '../../assets/images/encryption.jpg';
-import packets from '../../assets/images/packets.jpg';
-import branchchains from '../../assets/images/branchchains.jpg';
+
+import encryptionImage from '../../assets/images/encryption.jpg';
+import packetsImage from '../../assets/images/packets.jpg';
+import branchchainsImage from '../../assets/images/branchchains.jpg';
 
 const panes = [
   { title: 'Network Creation', description: 'Spin up a new virtualized blockchain network in just a few lines of code', content: <SnippetOne /> },
@@ -29,17 +30,17 @@ class BodyContainer extends Component {
                 </div>
 
                 <div className="floater float-right">
-                  <img className="center" src={encryption} alt="encryption" />
+                  <img className="center-items" src={encryptionImage} alt="encryption" />
                 </div>
               </div>
 
               <div className="tech clearfix">
                 <div className="floater float-left mr-8">
-                  <img src={packets} alt="packets" />
+                  <img className="center-items" src={packetsImage} alt="packets" />
                 </div>
 
                 <div className="floater float-right tech-blurb">
-                  <h3 className="tech-h3 center">Programmable Packets</h3>
+                  <h3 className="tech-h3">Programmable Packets</h3>
                   <hr className="tech-hr" />
                   <p className="tech-p">Smart contracts for network packets allow the creation of packet level decentralized applications for improved network security and operation</p>
                 </div>
@@ -53,11 +54,11 @@ class BodyContainer extends Component {
                 </div>
 
                 <div className="floater float-right">
-                  <img className="center" src={branchchains} alt="branchchains" />
+                  <img className="center-items" src={branchchainsImage} alt="branchchains" />
                 </div>
               </div>
 
-              <div className="center-items">
+              <div className="center">
                 <h4 className="tech-h4">Learn more about the Marconi Platform</h4>
                 
                 <button className="tech-btn access-btn other-access">
@@ -138,7 +139,7 @@ class BodyContainer extends Component {
                     <p className="dev-p">APIs enable traffic routing, packet analysis, pattern recognition, branch chain creation and token migration.</p>
                   </div>
 
-                  <div className="center-items">
+                  <div className="center">
                     <h2 className="dev-h2 dev-access">Get early access to the SDK</h2>
                     <button className="access-btn git-access">
                       <i class="fab fa-github"></i>Request Git Access

@@ -6,7 +6,7 @@ export const SnippetOne = () => {
   return(
     <div>
       <Highlight language="bash">
-        {`$ marconi branch foo
+{`$ marconi branch foo
 >>> Success. Created branch foo.
 
 $ marconi status --branch_name=foo
@@ -16,8 +16,7 @@ $ marconi init --config=/tmp/config.txt --branch_name=foo
 >>> Success. Configured branch foo.
 
 $ marconi run --branch_name=foo
->>> Success. Running branch foo.
-        `}
+>>> Success. Running branch foo.`}
       </Highlight>
     </div>
   )
@@ -27,7 +26,7 @@ export const SnippetTwo = () => {
   return(
     <div>
       <Highlight language="javascript">
-        {`Contract IntranetFirewall {
+{`Contract IntranetFirewall {
   Init(Address target_address) {
     TunnelRef handle = mOpen(target_address);
     mApply(handle, {AllowOnlyCorpOrHTTPS});
@@ -40,8 +39,7 @@ Status AllowOnlyCorpOrHTTPS(PacketRef packet) {
     return Status::UNSAFE;
   }
   return Status::OK;
-}
-        `}
+}`}
       </Highlight>
     </div>
   )
@@ -51,7 +49,7 @@ export const SnippetThree = () => {
   return (
     <div>
       <Highlight language="javascript">
-        {`Contract PhishCatcher {
+{`Contract PhishCatcher {
   Init(Address client_address) {
     TunnelRef handle = mOpen(client_address);
     mApply(handle, {PhishFunc});
@@ -63,8 +61,7 @@ Status PhishFunc(PacketRef packet) {
     return Status::UNSAFE;
   }
   return Status::OK;
-}
-        `}
+}`}
       </Highlight>
     </div>
   )

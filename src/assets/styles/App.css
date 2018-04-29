@@ -7,10 +7,13 @@ a {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-  margin: 0;
-}
-
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p,
 pre {
   margin: 0;
 }
@@ -29,12 +32,12 @@ pre {
 }
 
 .center {
-  display: block;
-  margin: 0 auto;
+  text-align: center;
 }
 
 .center-items {
-  text-align: center;
+  display: block;
+  margin: 0 auto;
 }
 
 .clearfix::after {
@@ -84,52 +87,77 @@ pre {
 
 .other-access {
   background-color: #fb690000;
-  border: 2px solid #FB6900;
+  border: 2px solid #fb6900;
   color: #ffffff;
 }
 
 .other-access:hover {
-  background-color: #FB6900;
+  background-color: #fb6900;
 }
 /* end CTA buttons */
 
-/* FONTS */
-button, .nav-link, .language-btn, .tech-p, .case-p, .dev-p, #footer-container, .sample-btn, .sample-info  {
+/* FONT FAMILIES */
+
+button, 
+.nav-link, 
+.language-btn, 
+.tech-p, 
+.case-p, 
+.dev-p, 
+#footer-container, 
+.sample-btn, 
+.sample-info  {
   font-family: 'Open Sans', sans-serif;
 }
 
-#splash-h1, #splash-h2, #splash-p, .body-h1, .tech-h2, .tech-h3, .tech-h4, .case-h2, .case-plus, .dev-h2 {
+#splash-h1, 
+#splash-h2, 
+#splash-p, 
+.body-h1, 
+.tech-h2, 
+.tech-h3, 
+.tech-h4, 
+.case-h2, 
+.case-plus, 
+.dev-h2 {
   font-family: 'Raleway', sans-serif;
 }
 
 .hljs {
   font-family: 'Ubuntu Mono', monospace;
 }
-/* end FONTS */
+
+/* end FONT FAMILIES */
 
 /* FONT COLORS */
-.nav-link a, .splash, .case-p {
+
+.nav-link a, 
+.splash, 
+.case-p {
   color: #ffffff;
 }
 
-.tech-h2, .tech-h4, .tech-p, .tech-btn, .dev-h2, .dev-p, .sample-info, .other-access:hover {
+.tech-h2, 
+.tech-h4, 
+.tech-p, 
+.tech-btn, 
+.dev-h2, 
+.dev-p, 
+.sample-info, 
+.other-access:hover {
   color: #343838;
 }
 
-.body-h1, .tech-h3, .case-h2, .copyright, .footer-link a {
+.body-h1, 
+.tech-h3, 
+.case-h2, 
+.copyright, 
+.footer-link a {
   color: #00b4cc;
 }
 
 .git-access {
   color: #282b2b;
-}
-
-#code-container {
-  color: #abb2bf;
-}
-
-.green {
-  color: #97c277;
 }
 
 /* end FONT COLORS */

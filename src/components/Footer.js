@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import footer from '../assets/images/footer.jpg';
+
+import footerImage from '../assets/images/footer.jpg';
 
 class Footer extends Component {
   render() {
@@ -7,7 +8,7 @@ class Footer extends Component {
       <footer className="fixed-width">
           <div className="clearfix" id="footer-container">
             <div className="footer-logo float-left">
-              <img src={footer} alt="footer" />
+              <img src={footerImage} alt="footer" />
               <div className="copyright">© 2018 Marconi Foundation</div>
             </div>
 
