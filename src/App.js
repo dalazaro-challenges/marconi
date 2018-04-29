@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import ReactDOM from "react-dom";
+
+import { I18nextProvider } from "react-i18next";
+import i18n from "./i18n";
 
 import Header from './components/Header.js';
 import BodyContainer from './components/body/BodyContainer.js';
@@ -14,7 +18,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
+        <I18nextProvider i18n={i18n}>
+          <Header />
+        </I18nextProvider>
         <BodyContainer />
         <Footer />
       </div>

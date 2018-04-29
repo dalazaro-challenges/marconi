@@ -17,6 +17,13 @@ header {
   color: #ffffff;
 }
 
+.language-btn {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  padding: 5px;
+  margin: 0 5px; 
+}
+
 .splash {
   padding: 90px 0 130px 0;
 }

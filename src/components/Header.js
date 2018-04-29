@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import ReactDOM from "react-dom";
+import { translate, Trans } from "react-i18next";
 
 import header from '../assets/images/header.jpg';
 import cloud from '../assets/images/cloud.jpg';
@@ -6,6 +8,12 @@ import git from '../assets/images/git.jpg';
 
 class Header extends Component {
   render() {
+    const { t, i18n } = this.props;
+
+    const changeLanguage = lng => {
+      i18n.changeLanguage(lng);
+    };
+
     return (
       <div>
         <header>
@@ -39,10 +47,8 @@ class Header extends Component {
                 </li>
 
                 <li className="nav-link">
-                  <select>
-                    <option value="english">English</option>
-                    <option value="chinese">Simplified Chinese</option>
-                  </select>
+                  <button className="language-btn" onClick={() => changeLanguage("en")}>English</button>
+                  <button className="language-btn" onClick={() => changeLanguage("ch")}>Simplified Chinese</button>
                 </li>
               </ul>
             </section>
@@ -55,10 +61,9 @@ class Header extends Component {
               <div className="floater float-right">
                 <h1 id="splash-h1">Programmable Ethernet</h1>
 
-                {/* TODO: Set conditional to interpolate languages
-                English: A new blockchain protocol for jump starting secure networks using programmable packets
-                Chinese: 使用可编程数据包跳转启动安全网络的新区块链协议 */}
-                <h2 id="splash-h2">A new blockchain protocol for jump starting secure networks using programmable packets</h2>
+                <h2 id="splash-h2">
+                  {t("A new blockchain protocol for jump starting secure networks using programmable packets")}
+                </h2>
 
                 <p id="splash-p">Get early access to the SDK</p>
                 <div className="access-buttons">
@@ -79,4 +84,4 @@ class Header extends Component {
   }
 }
 
-export default Header;
+export default translate("translations")(Header);
