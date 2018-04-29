@@ -14,15 +14,17 @@
 }
 
 .sample-btn {
+  display: inline;
   font-family: "Open Sans", sans serif;
   font-size: 16px;
   line-height: 19px;
   padding: 15px 20px;
+  margin: 0 5px;
   border: 0;
   background-color: #f0f0f0;
 }
 
-.sample-code-p {
+.sample-info {
   font-family: "Open Sans", sans serif;
   font-weight: 300;
   font-size: 16px;
@@ -31,3 +33,11 @@
   line-height: 28px;
 }
 
+.sample-p {
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.green {
+  color: #97c277;
+}
