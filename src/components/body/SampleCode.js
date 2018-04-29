@@ -45,8 +45,7 @@ class SampleCode extends Component {
           <p>{this.state.description}</p>
         </div>
 
-        <div id="code-box">
-          <div className="sample-font">
+        <div id="code-container">
           
           {/* Network Creation code */}
           <p className="sample-p">
@@ -108,7 +107,6 @@ class SampleCode extends Component {
             {`}`}<br />
           </p> */}
 
-          </div>
         </div>
       </div>
     )

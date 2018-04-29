@@ -14,9 +14,8 @@ class Header extends Component {
 
     return (
       <div>
-        <header>
-          <div className="fixed-width">
-            <section className="navbar clearfix">
+        <header className="fixed-width">
+            <nav className="clearfix" id="navbar">
               <img src={header} alt="header" className="float-left" />
 
               <ul className="navbar-links float-right no-bullets">
@@ -46,10 +45,10 @@ class Header extends Component {
 
                 <li className="nav-link">
                   <button className="language-btn" onClick={() => changeLanguage("en")}>English</button>
-                  <button className="language-btn" onClick={() => changeLanguage("ch")}>Simplified Chinese</button>
+                  <button className="language-btn" onClick={() => changeLanguage("ch")}>简化字</button>
                 </li>
               </ul>
-            </section>
+            </nav>
 
             <section className="splash clearfix">
               <div className="floater float-left">
@@ -60,7 +59,9 @@ class Header extends Component {
                 <h1 id="splash-h1">Programmable Ethernet</h1>
 
                 <h2 id="splash-h2">
-                  {t("A new blockchain protocol for jump starting secure networks using programmable packets")}
+                  <Trans>
+                    A new blockchain protocol for jump starting secure networks using programmable packets
+                  </Trans>
                 </h2>
 
                 <p id="splash-p">Get early access to the SDK</p>
@@ -75,7 +76,6 @@ class Header extends Component {
                 </div>
               </div>          
             </section>
-          </div>
         </header>
       </div>
     )

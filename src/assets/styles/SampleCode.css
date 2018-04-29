@@ -1,4 +1,4 @@
-#code-box {
+#code-container {
   background-color: #292c34;
   margin: 0 auto;
   padding: 30px;
@@ -8,14 +8,8 @@
   width: 746px;
 }
 
-.sample-font {
-  font-family: 'Ubuntu Mono', monospace;
-  color: #abb2bf;
-}
-
 .sample-btn {
   display: inline;
-  font-family: "Open Sans", sans serif;
   font-size: 16px;
   line-height: 19px;
   padding: 15px 20px;
@@ -25,10 +19,8 @@
 }
 
 .sample-info {
-  font-family: "Open Sans", sans serif;
   font-weight: 300;
   font-size: 16px;
-  color: #343838;
   margin: 20px 0;
   line-height: 28px;
 }
@@ -36,8 +28,4 @@
 .sample-p {
   line-height: 20px;
   margin-bottom: 20px;
-}
-
-.green {
-  color: #97c277;
 }

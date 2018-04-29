@@ -11,35 +11,27 @@
 }
 
 .body-h1 {
-  font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 48px;
-  color: #00b4cc;
   text-align: center;
   margin-bottom: 75px;
 }
 
 .tech-h2 {
-  font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-size: 28px;
-  color: #343838;
   line-height: 42px;
   margin-bottom: 50px;
 }
 
 .tech-h3 {
-  font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-size: 28px;
-  color: #00b4cc;
 }
 
 .tech-h4 {
-  font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 20px;
-  color: #343838;
   text-align: center;
   margin-bottom: 8px;
 }
@@ -65,15 +57,9 @@
 }
 
 .tech-p {
-  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 18px;
-  color: #343838;
   line-height: 29px;
-}
-
-.tech-btn {
-  color: #343838;
 }
 
 .case-item-container {
@@ -91,14 +77,11 @@
 }
 
 .case-h2 {
-  font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-size: 22px;
-  color: #00b4cc;
 }
 
 .case-plus {
-  font-family: 'Raleway', sans-serif;
   font-weight: 300;
   font-size: 28px;
   color: #fb6900;
@@ -107,10 +90,8 @@
 }
 
 .case-p {
-  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 16px;
-  color: #ffffff;
   line-height: 26px;
   margin-left: 15px;
 }
@@ -124,17 +105,13 @@
 }
 
 .dev-h2 {
-  font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 20px;
-  color: #343838;
 }
 
 .dev-p {
-  font-family: "Open Sans";
   font-weight: 300;
   font-size: 16px;
-  color: #343838;
   margin: 10px 0;
   padding-right: 60px;
   line-height: 28px;

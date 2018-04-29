@@ -2,23 +2,17 @@ header {
   background: linear-gradient(to bottom, rgba(16, 27, 27, 1), rgba(51, 55, 55, 1));
 }
 
-.navbar {
-  padding: 1.25rem 3rem;
+#navbar {
+  padding: 20px 50px;
 }
 
 .nav-link {
   display: inline;
-  padding: 2.25rem;
-  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-}
-
-.nav-link a, .splash {
-  color: #ffffff;
+  padding: 40px;
 }
 
 .language-btn {
-  font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   padding: 5px;
   margin: 0 5px; 
@@ -29,14 +23,12 @@ header {
 }
 
 #splash-h1 {
-  font-family: 'Raleway', sans-serif;
   font-size: 48px;
   font-weight: 500;
   padding-bottom: 10px;
 }
 
 #splash-h2 {
-  font-family: 'Raleway', sans-serif;
   font-size: 28px;
   font-weight: 300;
   line-height: 42px;
@@ -44,7 +36,6 @@ header {
 }
 
 #splash-p {
-  font-family: 'Raleway', sans-serif;
   font-size: 20px;
   font-weight: 600;
   margin: 0;

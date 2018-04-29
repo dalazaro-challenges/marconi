@@ -24,6 +24,15 @@ h1, h2, h3, h4, h5, h6, p {
   margin-right: 80px;
 }
 
+.center {
+  display: block;
+  margin: 0 auto;
+}
+
+.center-items {
+  text-align: center;
+}
+
 .clearfix::after {
   content: "";
   clear: both;
@@ -47,19 +56,7 @@ h1, h2, h3, h4, h5, h6, p {
   padding-left: 0;
 }
 
-.center {
-  display: block;
-  margin: 0 auto;
-}
-
-.center-items {
-  text-align: center;
-}
-
-button {
-  font-family: 'Open Sans', sans-serif;
-}
-
+/* CTA BUTTONS */
 .access-btn {
   height: 50px;
   width: 260px;
@@ -70,7 +67,6 @@ button {
 
 .git-access {
   background-color: #fb6900;
-  color: #282b2b;
   font-weight: 700;
 }
 
@@ -90,5 +86,46 @@ button {
 
 .other-access:hover {
   background-color: #FB6900;
-  color: #000000;
 }
+/* end CTA buttons */
+
+/* FONTS */
+button, .nav-link, .language-btn, .tech-p, .case-p, .dev-p, #footer-container, .sample-btn, .sample-info  {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#splash-h1, #splash-h2, #splash-p, .body-h1, .tech-h2, .tech-h3, .tech-h4, .case-h2, .case-plus, .dev-h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+#code-container {
+  font-family: 'Ubuntu Mono', monospace;
+}
+/* end FONTS */
+
+/* FONT COLORS */
+.nav-link a, .splash, .case-p {
+  color: #ffffff;
+}
+
+.tech-h2, .tech-h4, .tech-p, .tech-btn, .dev-h2, .dev-p, .sample-info, .other-access:hover {
+  color: #343838;
+}
+
+.body-h1, .tech-h3, .case-h2, .copyright, .footer-link a {
+  color: #00b4cc;
+}
+
+.git-access {
+  color: #282b2b;
+}
+
+#code-container {
+  color: #abb2bf;
+}
+
+.green {
+  color: #97c277;
+}
+
+/* end FONT COLORS */
