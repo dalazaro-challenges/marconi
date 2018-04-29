@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-import ReactDOM from "react-dom";
 import { translate, Trans } from "react-i18next";
 
 import header from '../assets/images/header.jpg';
 import cloud from '../assets/images/cloud.jpg';
-import git from '../assets/images/git.jpg';
 
 class Header extends Component {
   render() {
