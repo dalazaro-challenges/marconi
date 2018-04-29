@@ -10,13 +10,13 @@ export const SnippetOne = () => {
     $ marconi branch foo
     >>> Success. Created branch foo.
 
-    $ marconi status--branch_name = foo
+    $ marconi status --branch_name=foo
     >>> Branch foo: uninitialized
 
-    $ marconi init--config = /tmp/config.txt--branch_name = foo
+    $ marconi init --config=/tmp/config.txt --branch_name=foo
     >>> Success. Configured branch foo.
 
-    $ marconi run--branch_name = foo
+    $ marconi run --branch_name=foo
     >>> Success. Running branch foo.
         `}
       </Highlight>
@@ -60,7 +60,7 @@ export const SnippetThree = () => {
 }
 
 Status PhishFunc(PacketRef packet) {  
-  if (packet.src().url().as_string().match('[^\u0000-\u007F]')) {
+  if (packet.src().url().as_string().match('[^\\u0000-\\u007F]')) {
     return Status::UNSAFE;
   }
   return Status::OK;

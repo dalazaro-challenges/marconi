@@ -58,9 +58,7 @@ class SampleCode extends Component {
           </p>
         </div>
 
-        <div id="code-container">
-          {pane.content}
-        </div>
+        {pane.content}
       </div>
     )
   }
