@@ -74,6 +74,7 @@ class BodyContainer extends Component {
                   </h2>
                   <p className="case-p">Jump start new blockchains that leverage the Marconi Network for secure block creation and persistence.</p>
                 </div>
+
                 <div className="case-item">
                   <h2 className="case-h2">
                     <span className="case-plus">+</span>
@@ -81,6 +82,7 @@ class BodyContainer extends Component {
                   </h2>
                   <p className="case-p">Migrate token projects (e.g. ERC20) to a blockchain where the tokens now provide utility by powering the blockchain</p>
                 </div>
+
                 <div className="case-item">
                   <h2 className="case-h2">
                     <span className="case-plus">+</span>
@@ -88,6 +90,7 @@ class BodyContainer extends Component {
                   </h2>
                   <p className="case-p">Rapidly deploy secure networks in battlefields and disaster recovery areas. Record network activity on a ledger for after action reviews.</p>
                 </div>
+
                 <div className="case-item">
                   <h2 className="case-h2">
                     <span className="case-plus">+</span>
@@ -95,6 +98,7 @@ class BodyContainer extends Component {
                   </h2>
                   <p className="case-p">Create administrative applications for network load balancing, changing network topology and IOT device management.</p>
                 </div>
+
                 <div className="case-item">
                   <h2 className="case-h2">
                     <span className="case-plus">+</span>
@@ -103,7 +107,6 @@ class BodyContainer extends Component {
                   <p className="case-p">Create decentralized security apps like Anti-Phishing, Anti-Malware, Intrusion Prevention Systems and dVPNs</p>
                 </div>
               </div>
-
             </div>
           </div>
         </section>
