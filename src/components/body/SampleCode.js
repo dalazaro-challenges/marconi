@@ -11,12 +11,12 @@ class Headers extends React.Component {
       }
 
       return (
-        <button
+        <a
           key={index}
           className={`${klass} sample-btn`}
           onClick={this.props.onTabChosen.bind(null, index)}>
           {title}{' '}
-        </button>
+        </a>
       );
     });
     return (
@@ -52,13 +52,13 @@ class SampleCode extends Component {
           panes={this.props.panes}
         />
 
-        <div className="sample-info center-items">
-          <p>{pane.description}</p>
+        <div className="center-items">
+          <p className="sample-info">
+            {pane.description}
+          </p>
         </div>
 
-        <div id="code-container">
-          {pane.content}
-        </div>
+        {pane.content}
       </div>
     )
   }

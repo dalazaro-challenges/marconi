@@ -98,7 +98,7 @@ button, .nav-link, .language-btn, .tech-p, .case-p, .dev-p, #footer-container, .
   font-family: 'Raleway', sans-serif;
 }
 
-#code-container {
+.hljs {
   font-family: 'Ubuntu Mono', monospace;
 }
 /* end FONTS */
