@@ -16,6 +16,8 @@ header {
   font-size: 12px;
   padding: 5px;
   margin: 0 5px; 
+  background-color: #ffffff;
+  border-radius: 2px;
 }
 
 .splash {
