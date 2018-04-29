@@ -1,8 +1,15 @@
 import React, { Component } from 'react';
+import { SnippetOne, SnippetTwo, SnippetThree } from './snippets.js';
 import SampleCode from './SampleCode.js';
 import encryption from '../../assets/images/encryption.jpg';
 import packets from '../../assets/images/packets.jpg';
 import branchchains from '../../assets/images/branchchains.jpg';
+
+const panes = [
+  { title: 'Network Creation', description: 'Spin up a new virtualized blockchain network in just a few lines of code', content: <SnippetOne /> },
+  { title: 'Network Admin', description: 'Establish policies to determine what type of traffic is permitted on the network', content: <SnippetTwo /> },
+  { title: 'Anti-Phishing', description: 'Analyze network traffic for phishing attacks such as masquerading URLs with unicode characters', content: <SnippetThree /> }
+];
 
 class BodyContainer extends Component {
   render() {
@@ -140,7 +147,7 @@ class BodyContainer extends Component {
                 </div>
               </div>
 
-              <SampleCode />
+              <SampleCode panes={panes} />
             </div>
           </div>
         </section>
