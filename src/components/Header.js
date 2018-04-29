@@ -56,13 +56,15 @@ class Header extends Component {
               </div>
 
               <div className="floater float-right">
-                <h1 id="splash-h1">Programmable Ethernet</h1>
+                <div className="splash-text">
+                  <h1 id="splash-h1">Programmable Ethernet</h1>
 
-                <h2 id="splash-h2">
-                  <Trans>
-                    A new blockchain protocol for jump starting secure networks using programmable packets
-                  </Trans>
-                </h2>
+                  <h2 id="splash-h2">
+                    <Trans>
+                      A new blockchain protocol for jump starting secure networks using programmable packets
+                    </Trans>
+                  </h2>
+                </div>
 
                 <p id="splash-p">Get early access to the SDK</p>
                 <div className="access-buttons">
