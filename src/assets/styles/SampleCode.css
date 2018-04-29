@@ -9,19 +9,33 @@
 }
 
 .sample-btn {
-  display: inline;
+  display: inline-block;
+  width: 140px;
   font-size: 16px;
   line-height: 19px;
-  padding: 15px 20px;
-  margin: 0 5px;
+  padding: 15px;
   border: 0;
   background-color: #f0f0f0;
+  border-bottom: 2px solid #FB6900;
+}
+
+.sample-btn:hover {
+  cursor: pointer;
+}
+
+.active {
+  border-top: 2px solid #FB6900;
+  border-left: 2px solid #FB6900;
+  border-right: 2px solid #FB6900;
+  border-bottom: none;
 }
 
 .sample-info {
+  width: 400px;
+  margin: 0 auto;
   font-weight: 300;
   font-size: 16px;
-  margin: 20px 0;
+  padding: 20px 0;
   line-height: 28px;
 }
 
