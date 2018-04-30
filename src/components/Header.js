@@ -6,7 +6,7 @@ import cloudImage from '../assets/images/cloud.jpg';
 
 class Header extends Component {
   render() {
-    const { t, i18n } = this.props;
+    const { i18n } = this.props;
 
     const changeLanguage = lng => {
       i18n.changeLanguage(lng);
@@ -68,7 +68,7 @@ class Header extends Component {
               <p id="splash-p">Get early access to the SDK</p>
               <div className="access-buttons">
                 <button className="access-btn git-btn">
-                  <i class="fab fa-github" />Request Git Access
+                  <i className="fab fa-github" />Request Git Access
                 </button>
 
                 <button className="access-btn code-access">

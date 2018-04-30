@@ -52,7 +52,7 @@ class Developers extends Component {
                   Get early access to the SDK
                 </h2>
                 <button className="access-btn git-btn">
-                  <i class="fab fa-github" />Request Git Access
+                  <i className="fab fa-github" />Request Git Access
                 </button>
               </div>
             </div>

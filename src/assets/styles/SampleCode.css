@@ -1,4 +1,6 @@
 .hljs {
+  display: block;
+  overflow-x: auto;
   background-color: #292c34;
   margin: 0 auto;
   padding: 30px;
