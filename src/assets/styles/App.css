@@ -1,3 +1,4 @@
+/* PAGE LAYOUT */
 .fixed-width {
   width: 1280px;
   margin: 0 auto;
@@ -62,6 +63,7 @@ pre {
   list-style-type: none;
   padding-left: 0;
 }
+/* end PAGE LAYOUT */
 
 /* CTA BUTTONS */
 .access-btn {
@@ -72,32 +74,22 @@ pre {
   font-size: 18px;
 }
 
-.git-access {
+.git-btn {
   background-color: #fb6900;
   font-weight: 700;
 }
 
-.git-access:hover {
+.git-btn:hover {
   background-color: #d65222;
+  cursor: pointer;
 }
 
 .fa-github {
   padding-right: 10px;
 }
-
-.other-access {
-  background-color: #fb690000;
-  border: 2px solid #fb6900;
-  color: #ffffff;
-}
-
-.other-access:hover {
-  background-color: #fb6900;
-}
 /* end CTA buttons */
 
 /* FONT FAMILIES */
-
 button, 
 .nav-link, 
 .language-btn, 
@@ -126,11 +118,9 @@ button,
 .hljs {
   font-family: 'Ubuntu Mono', monospace;
 }
-
 /* end FONT FAMILIES */
 
 /* FONT COLORS */
-
 .nav-link a, 
 .splash, 
 .case-p {
@@ -144,7 +134,8 @@ button,
 .dev-h2, 
 .dev-p, 
 .sample-info, 
-.other-access:hover {
+.code-access:hover,
+.whitepaper-access {
   color: #343838;
 }
 
@@ -156,8 +147,7 @@ button,
   color: #00b4cc;
 }
 
-.git-access {
+.git-btn {
   color: #282b2b;
 }
-
 /* end FONT COLORS */

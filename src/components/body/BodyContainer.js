@@ -61,7 +61,7 @@ class BodyContainer extends Component {
               <div className="center">
                 <h4 className="tech-h4">Learn more about the Marconi Platform</h4>
                 
-                <button className="tech-btn access-btn other-access">
+                <button className="tech-btn access-btn whitepaper-access">
                   Read Whitepaper
                 </button>
               </div>
@@ -141,7 +141,7 @@ class BodyContainer extends Component {
 
                   <div className="center">
                     <h2 className="dev-h2 dev-access">Get early access to the SDK</h2>
-                    <button className="access-btn git-access">
+                    <button className="access-btn git-btn">
                       <i class="fab fa-github"></i>Request Git Access
                     </button>
                   </div>

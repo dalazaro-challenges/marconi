@@ -68,11 +68,11 @@ class Header extends Component {
 
                 <p id="splash-p">Get early access to the SDK</p>
                 <div className="access-buttons">
-                  <button className="access-btn git-access">
-                    <i class="fab fa-github"></i>Request Git Access
+                  <button className="access-btn git-btn">
+                    <i class="fab fa-github" />Request Git Access
                   </button>
 
-                  <button className="access-btn other-access ml-2">
+                  <button className="access-btn code-access ml-2">
                     View Sample Code
                   </button>
                 </div>
