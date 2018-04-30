@@ -42,3 +42,13 @@
   font-size: 18px;
   line-height: 29px;
 }
+
+.whitepaper-access {
+  background-color: #fb690000;
+  border: 2px solid #fb6900;
+}
+
+.whitepaper-access:hover {
+  background-color: #fb6900;
+  cursor: pointer;
+}

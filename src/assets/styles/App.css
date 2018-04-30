@@ -63,6 +63,27 @@ pre {
   list-style-type: none;
   padding-left: 0;
 }
+
+.body-section {
+  padding: 70px 0;
+}
+
+#core-tech, 
+#developers {
+  background-color: #f0f0f0;
+}
+
+#use-cases {
+  background-color: #343838;
+}
+
+.body-h1 {
+  font-weight: 600;
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 75px;
+}
+
 /* end PAGE LAYOUT */
 
 /* CTA BUTTONS */
