@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 import encryptionImage from '../../assets/images/encryption.jpg';
 import packetsImage from '../../assets/images/packets.jpg';
 import branchchainsImage from '../../assets/images/branchchains.jpg';

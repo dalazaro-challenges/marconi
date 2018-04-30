@@ -11,6 +11,7 @@ import './assets/styles/App.css';
 import './assets/styles/Header.css';
 import './assets/styles/BodyContainer.css';
 import './assets/styles/CoreTech.css';
+import './assets/styles/UseCases.css';
 import './assets/styles/SampleCode.css';
 import './assets/styles/Footer.css';
 
