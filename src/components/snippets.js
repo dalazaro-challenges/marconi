@@ -1,5 +1,6 @@
 import React from 'react';
 import Highlight from 'react-highlight';
+
 import '../assets/styles/atom-one-dark.css';
 
 export const SnippetOne = () => {

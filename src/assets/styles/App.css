@@ -1,9 +1,4 @@
 /* PAGE LAYOUT */
-.fixed-width {
-  width: 1280px;
-  margin: 0 auto;
-}
-
 a {
   text-decoration: none;
 }
@@ -17,6 +12,15 @@ h6,
 p,
 pre {
   margin: 0;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.fixed-width {
+  width: 1280px;
+  margin: 0 auto;
 }
 
 .container {
@@ -75,7 +79,6 @@ pre {
   text-align: center;
   margin-bottom: 75px;
 }
-
 /* end PAGE LAYOUT */
 
 /* CTA BUTTONS */
@@ -135,7 +138,8 @@ button,
 
 /* FONT COLORS */
 .nav-link a, 
-.splash, 
+.splash,
+.code-access,  
 .case-p {
   color: #ffffff;
 }
@@ -161,5 +165,9 @@ button,
 
 .git-btn {
   color: #282b2b;
+}
+
+.case-plus {
+  color: #fb6900;
 }
 /* end FONT COLORS */

@@ -23,9 +23,14 @@
   align-items: center;
 }
 
-.tech-blurb {
+.tech-blurb-left {
   width: 450px;
   margin-right: 80px;
+}
+
+.tech-blurb-right {
+  width: 450px;
+  margin-left: 80px;
 }
 
 .tech-hr {

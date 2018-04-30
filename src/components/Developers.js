@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+
+// Snippets held in object as components, then passed down as props to the sample code component
 import { SnippetOne, SnippetTwo, SnippetThree } from './snippets.js';
 
 import SampleCode from './SampleCode.js';
@@ -12,37 +14,52 @@ const panes = [
 class Developers extends Component {
   render() {
     return (
-      <section className="body-section" id="developers">
-        <div className="fixed-width">
-          <div className="container">
-            <h1 className="body-h1">Developers</h1>
+      <section id="developers" className="body-section fixed-width">
+        <div className="container">
+        
+          <h1 className="body-h1">Developers</h1>
 
-            <div className="dev-container clearfix">
-              <div className="floater float-left">
-                <div className="dev-item">
-                  <h2 className="dev-h2">Marconi Applications</h2>
-                  <p className="dev-p">Write decentralized applications using Marconi Script, a Turing-complete language with access to network packets.</p>
-                  <p className="dev-p">Decentralized Apps can be submitted to the global chain or branch chains for public and private networks.</p>
-                </div>
-              </div>
+          <div className="dev-container clearfix">
+            <div className="floater float-left">
+              <div className="dev-item">
+                <h2 className="dev-h2">
+                  Marconi Applications
+                </h2>
 
-              <div className="floater float-right">
-                <div className="dev-item">
-                  <h2 className="dev-h2">Marconi Library</h2>
-                  <p className="dev-p">APIs enable traffic routing, packet analysis, pattern recognition, branch chain creation and token migration.</p>
-                </div>
+                <p className="dev-p">
+                  Write decentralized applications using Marconi Script, a Turing-complete language with access to network packets.
+                </p>
 
-                <div className="center">
-                  <h2 className="dev-h2 dev-access">Get early access to the SDK</h2>
-                  <button className="access-btn git-btn">
-                    <i class="fab fa-github"></i>Request Git Access
-                    </button>
-                </div>
+                <p className="dev-p">
+                  Decentralized Apps can be submitted to the global chain or branch chains for public and private networks.
+                </p>
               </div>
             </div>
 
-            <SampleCode panes={panes} />
+            <div className="floater float-right">
+              <div className="dev-item">
+                <h2 className="dev-h2">
+                  Marconi Library
+                </h2>
+
+                <p className="dev-p">
+                  APIs enable traffic routing, packet analysis, pattern recognition, branch chain creation and token migration.
+                </p>
+              </div>
+
+              <div className="center">
+                <h2 className="dev-h2 dev-access">
+                  Get early access to the SDK
+                </h2>
+                <button className="access-btn git-btn">
+                  <i class="fab fa-github" />Request Git Access
+                </button>
+              </div>
+            </div>
           </div>
+
+          <SampleCode panes={panes} />
+
         </div>
       </section>
     )
