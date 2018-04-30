@@ -21,13 +21,13 @@ class Footer extends Component {
                 </a>
               </li>
 
-              <li className="footer-link">
+              <li data-scroll className="footer-link">
                 <a href="#developers">
                   Developers
                 </a>
               </li>
 
-              <li className="footer-link">
+              <li data-scroll className="footer-link">
                 <a href="#core-tech">
                   Core Tech
                 </a>

@@ -24,13 +24,13 @@ class Header extends Component {
                 </a>
               </li>
 
-              <li className="nav-link">
+              <li data-scroll className="nav-link">
                 <a href="#developers">
                   Developers
                 </a>
               </li>
 
-              <li className="nav-link">
+              <li data-scroll className="nav-link">
                 <a href="#core-tech">
                   Core Tech
                 </a>
