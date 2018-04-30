@@ -1,8 +1,6 @@
 import React from 'react';
 import Highlight from 'react-highlight';
 
-// import '../assets/styles/snippets.css';
-
 export const SnippetOne = () => {
   return(
     <div>
