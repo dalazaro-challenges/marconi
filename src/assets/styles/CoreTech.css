@@ -1,0 +1,60 @@
+.tech-h2 {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 42px;
+  margin-bottom: 50px;
+}
+
+.tech-h3 {
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.tech-h4 {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.tech {
+  margin-bottom: 90px;
+  display: flex;
+  align-items: center;
+}
+
+.tech-blurb-left {
+  width: 450px;
+  margin-right: 80px;
+}
+
+.tech-blurb-right {
+  width: 450px;
+  margin-left: 80px;
+}
+
+.tech-hr {
+  display: block;
+  width: 120px;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #00b4cc;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.tech-p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.whitepaper-access {
+  background-color: #fb690000;
+  border: 2px solid #fb6900;
+}
+
+.whitepaper-access:hover {
+  background-color: #fb6900;
+  cursor: pointer;
+}

@@ -6,10 +6,12 @@ class Footer extends Component {
   render() {
     return (
       <footer className="fixed-width">
-          <div className="clearfix" id="footer-container">
+        <div id="footer-container" className="clearfix">
             <div className="footer-logo float-left">
               <img src={footerImage} alt="footer" />
-              <div className="copyright">© 2018 Marconi Foundation</div>
+              <div className="copyright">
+                © 2018 Marconi Foundation
+              </div>
             </div>
 
             <ul className="footer-link-container clearfix no-bullets float-right">

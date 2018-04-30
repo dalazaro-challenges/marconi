@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Highlight from 'react-highlight';
-import '../../assets/styles/atom-one-dark.css';
+
+import '../assets/styles/snippets.css';
 
 export const SnippetOne = () => {
   return(

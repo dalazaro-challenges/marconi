@@ -1,9 +1,4 @@
 /* PAGE LAYOUT */
-.fixed-width {
-  width: 1280px;
-  margin: 0 auto;
-}
-
 a {
   text-decoration: none;
 }
@@ -19,17 +14,18 @@ pre {
   margin: 0;
 }
 
-.container {
-  width: 80%;
+button:focus {
+  outline: 0;
+}
+
+.fixed-width {
+  width: 1280px;
   margin: 0 auto;
 }
 
-.ml-2 {
-  margin-left: 20px;
-}
-
-.mr-8 {
-  margin-right: 80px;
+.container {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .center {
@@ -62,6 +58,26 @@ pre {
 .no-bullets {
   list-style-type: none;
   padding-left: 0;
+}
+
+.body-section {
+  padding: 70px 0;
+}
+
+#core-tech, 
+#developers {
+  background-color: #f0f0f0;
+}
+
+#use-cases {
+  background-color: #343838;
+}
+
+.body-h1 {
+  font-weight: 600;
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 75px;
 }
 /* end PAGE LAYOUT */
 
@@ -122,15 +138,15 @@ button,
 
 /* FONT COLORS */
 .nav-link a, 
-.splash, 
+.splash,
+.code-access,  
 .case-p {
   color: #ffffff;
 }
 
 .tech-h2, 
 .tech-h4, 
-.tech-p, 
-.tech-btn, 
+.tech-p,  
 .dev-h2, 
 .dev-p, 
 .sample-info, 
@@ -149,5 +165,13 @@ button,
 
 .git-btn {
   color: #282b2b;
+}
+
+.case-plus {
+  color: #fb6900;
+}
+
+.hljs {
+  color: #abb2bf;
 }
 /* end FONT COLORS */

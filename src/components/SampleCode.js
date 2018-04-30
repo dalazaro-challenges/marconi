@@ -5,25 +5,25 @@ class Headers extends React.Component {
     let selected = this.props.selectedPane;
     let headers = this.props.panes.map((pane, index) => {
       let title = pane.title;
-      let klass = '';
+      let toggleActive = '';
       if (index === selected) {
-        klass = 'active';
+        toggleActive = 'active';
       }
 
       return (
         <a
           key={index}
-          className={`${klass} sample-btn`}
+          className={`${toggleActive} sample-btn`}
           onClick={this.props.onTabChosen.bind(null, index)}>
-          {title}{' '}
+          {title}
         </a>
       );
     });
+
     return (
       <div className='center'>
         {headers}
       </div>
-
     );
   }
 }
@@ -34,15 +34,17 @@ class SampleCode extends Component {
     this.state = {
       selectedPane: 0
     };
-    this.selectTab = this.selectTab.bind(this)
+    this.selectTab = this.selectTab.bind(this);
   }
 
   selectTab(num) {
-    this.setState({ selectedPane: num });
+    this.setState({ 
+      selectedPane: num 
+    });
   }
 
   render() {
-    let pane = this.props.panes[this.state.selectedPane]
+    let pane = this.props.panes[this.state.selectedPane];
 
     return (
       <div>
