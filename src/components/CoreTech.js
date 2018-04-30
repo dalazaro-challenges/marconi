@@ -52,7 +52,7 @@ class CoreTech extends Component {
             <div className="center">
               <h4 className="tech-h4">Learn more about the Marconi Platform</h4>
 
-              <button className="tech-btn access-btn whitepaper-access">
+              <button className="access-btn whitepaper-access">
                 Read Whitepaper
               </button>
             </div>
